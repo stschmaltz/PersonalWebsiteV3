@@ -4,10 +4,7 @@ import { ReactNode } from 'react';
 
 export const siteTitle = 'shaneschmaltz.com';
 
-export default function Layout(input: {
-  children: ReactNode | undefined;
-  showReturnToHome: boolean;
-}) {
+export default function Layout(input: { children: ReactNode | undefined }) {
   const { children } = input;
 
   return (
